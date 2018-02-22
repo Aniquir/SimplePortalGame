@@ -1,7 +1,7 @@
 
 public class SimplePortal {
 
-    int[] positionFields;
+    int[] fieldPosition;
     int hitCount = 0;
 
     public String check(String field){
@@ -24,9 +24,9 @@ public class SimplePortal {
         return "";
     }
 
-    public void setPositionFields(int[] positionFields) {
+    public void setFieldPosition(int[] fieldPosition) {
 //        pobierz
 //        przypisz
-        this.positionFields = positionFields;
+        this.fieldPosition = fieldPosition;
     }
 }
