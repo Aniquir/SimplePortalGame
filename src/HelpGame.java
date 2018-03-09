@@ -45,7 +45,7 @@ public class HelpGame {
 
         while (!pass & attempt++ < 200){
             position = (int) (Math.random() * boardSize);
-//            System.out.print(" check " + position);
+            System.out.print(" check " + position);
             int x = 0;
             pass = true;
             while (pass && x < portalSize){
@@ -59,7 +59,7 @@ public class HelpGame {
                         pass = false;
                     }
                 } else {
-//                    System.out.print(" alread occupied" + position);
+                    System.out.print(" alread occupied" + position);
                     pass = false;
                 }
             }
@@ -76,9 +76,9 @@ public class HelpGame {
             help = String.valueOf(alphabet.charAt(column));
             occupiedFields.add(help.concat(Integer.toString(row)));
             x++;
-//            System.out.print("coordinates" + x + " = " + occupiedFields.get(x-1));
+            System.out.print(" coordinates " + x + " = " + occupiedFields.get(x-1));
         }
-//        System.out.println("\n");
+        System.out.println("\n");
         return occupiedFields;
     }
 }

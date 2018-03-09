@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+//this game don't work well
 public class PortalGameMax {
 
         private HelpGame helpGame = new HelpGame();
