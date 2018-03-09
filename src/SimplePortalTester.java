@@ -2,10 +2,10 @@
 public class SimplePortalTester {
 
     public static void main(String[] args) {
-        SimplePortal simplePortal = new SimplePortal();
+        Portal portal = new Portal();
         int[] position = {2,3,4};
-        simplePortal.setFieldPosition(position);
+        portal.setFieldPosition(position);
         String selectedField = "2";
-        String result = simplePortal.check(selectedField);
+        String result = portal.check(selectedField);
     }
 }
